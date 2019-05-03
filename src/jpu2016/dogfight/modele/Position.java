@@ -15,5 +15,27 @@ public class Position {
 
     }
 
+    public double getX() {
+        return 0; //temp REMOVE ME
+    }
+
+    public void setX(double x) {
+
+    }
+
+    public double getY() {
+        return 0; //temp REMOVE ME
+    }
+
+    public void setY(double y) {
+
+    }
     
+    protected void setMaxX(double maxX) {
+
+    }
+
+    protected void setMaxY(double maxY) {
+
+    }
 }
