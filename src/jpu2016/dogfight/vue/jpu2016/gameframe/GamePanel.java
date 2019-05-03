@@ -10,7 +10,7 @@ public class GamePanel {
 	}
 	
 	//@Override
-	public update(Observable observable) {
+	public void update(Observable observable) {
 		
 	}
 	

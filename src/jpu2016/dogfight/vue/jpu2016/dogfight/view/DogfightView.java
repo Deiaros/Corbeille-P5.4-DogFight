@@ -12,7 +12,7 @@ public class DogfightView implements IViewSystem {
 	
 	}
 	
-	public displayMessage(String message) {
+	public void displayMessage(String message) {
 
 	}
 	

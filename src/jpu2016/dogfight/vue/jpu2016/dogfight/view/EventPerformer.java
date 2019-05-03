@@ -1,5 +1,7 @@
 package jpu2016.dogfight.view;
 
+import jpu2016.dogfight.controller;
+
 public class EventPerformer {
 	
 	public EventPerformer (IOrderPerformer orderPerformer) {
@@ -10,8 +12,8 @@ public class EventPerformer {
 		
 	}
 	
-	private keyCodeToUserOrder (int keyCode) {
-		return UserOrder;
+	private UserOrder keyCodeToUserOrder (int keyCode) {
+		
 	}
 
 }

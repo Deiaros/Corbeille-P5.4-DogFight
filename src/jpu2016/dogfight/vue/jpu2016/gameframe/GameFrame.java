@@ -1,6 +1,7 @@
 package jpu2016.gameframe;
 
 import java.awt.event.KeyListener;
+import java.util.Observable;
 
 public class GameFrame {
 	
