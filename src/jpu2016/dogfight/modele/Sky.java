@@ -10,10 +10,10 @@ public class Sky implements IArea {
     }
 
     public Dimension getDimension() {
-
+        return null;//temp REMOVE ME
     }
 
     public Image getImage() {
-
+        return null;//temp REMOVE ME
     }
 }

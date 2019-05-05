@@ -9,7 +9,7 @@ public class DogfightModel implements IDogfightModel {
     }
 
     public IArea getArea() {
-
+        return null;//temp REMOVE ME
     }
 
     public void buildArea(Dimension dimension) {
@@ -24,13 +24,15 @@ public class DogfightModel implements IDogfightModel {
 
     }
 
+    
     public ArrayList<IMobile> getMobiles() {
-
+        return null;//temp REMOVE ME
     }
 
     public IMobile getMobileByPlayer(int player) {
-
+        return null;//temp REMOVE ME
     }
+    
 
     public void setMobilesHavesMoved() {
 

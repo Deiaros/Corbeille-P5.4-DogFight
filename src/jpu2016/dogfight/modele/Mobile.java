@@ -2,8 +2,7 @@ package jpu2016.dogfight.modele;
 
 import java.awt.Color;
 import java.awt.Point;
-
-import com.sun.prism.Image;
+import java.awt.Image;
 
 //import com.sun.java.util.jar.pack.Package.Class.Method;
 
@@ -16,7 +15,7 @@ public class Mobile implements IMobile {
     }
 
     public Direction getDirection() {
-        
+        return null;//temp REMOVE ME
     }
 
     public void setDirection(Direction direction) {
@@ -24,23 +23,23 @@ public class Mobile implements IMobile {
     }
 
     public Point getPosition() {
-
+        return null;//temp REMOVE ME
     }
 
     public Dimension getDimension() {
-
+        return null;//temp REMOVE ME
     }
 
     public int getSpeed() {
-
+        return 0;//temp REMOVE ME
     }
 
     public int getWidth() {
-
+        return 0;//temp REMOVE ME
     }
 
     public int getHeight() {
-        
+        return 0;//temp REMOVE ME
     }
 
     public void move() {
@@ -52,7 +51,7 @@ public class Mobile implements IMobile {
     }
 
     public boolean isPlayer(int player) {
-
+        return true;//temp REMOVE ME
     }
 
     private void moveUp() {
@@ -72,11 +71,11 @@ public class Mobile implements IMobile {
     }
 
     public Color getColor() {
-
+        return null;//temp REMOVE ME
     }
 
     public IDogfightModel getDogfightModel() {
-
+        return null;//temp REMOVE ME
     }
 
     public void setDogfightModel(IDogfightModel dogfightModel) {
@@ -84,15 +83,15 @@ public class Mobile implements IMobile {
     }
 
     public boolean hit() {
-        
+        return true;//temp REMOVE ME
     }
 
     public boolean isWeapon() {
-        
+        return true;//temp REMOVE ME
     }
 
     public Image getImage() {
-
+        return null;//temp REMOVE ME
     }
 
 }

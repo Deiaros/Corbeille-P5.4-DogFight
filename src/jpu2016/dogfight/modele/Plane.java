@@ -12,11 +12,11 @@ public class Plane extends Mobile{
     }
 
     public boolean isPlayer(int player) {
-
+        return true;//temp REMOVE ME
     }
 
     public boolean hit() {
-
+        return true;//temp REMOVE ME
     }
 
 }
