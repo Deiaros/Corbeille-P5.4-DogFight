@@ -22,11 +22,30 @@ public class Missle extends Mobile{
     }
 
     public void move() {
+        switch (this.getDirection()) {
+            case UP:
+                this.point.translate(1,0);
+                break;
+        
+            case RIGHT:
+                this.point.translate(0,1);
+                break;
+                
+            case DOWN:
+                this.point.translate(-1,0);
+                break;
 
+            case LEFT:
+                this.point.translate(0,-1);
+                break;
+
+            default:
+                break;
+        }
     }
 
     public boolean isWeapon() {
-        return true;//temp REMOVE ME
+        return true;
     }
 
 }

@@ -6,14 +6,15 @@ import java.awt.Image;
 public class Sky implements IArea {
 
     public Sky(Dimension dimension) {
-        
+        Dimension Sky = new Dimension(dimension);
     }
 
     public Dimension getDimension() {
-        return null;//temp REMOVE ME
+        return this.Sky;
     }
 
+    //unsure how this should work
     public Image getImage() {
-        return null;//temp REMOVE ME
+        return null;//insert image here
     }
 }

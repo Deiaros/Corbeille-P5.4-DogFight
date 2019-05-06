@@ -13,11 +13,11 @@ public class DogfightModel implements IDogfightModel {
     }
 
     public void buildArea(Dimension dimension) {
-        
+        //called by the controller to help build the game with Sky
     }
 
     public void addMobile(IMobile mobile) {
-
+        
     }
 
     public void removeMobile(IMobile mobile) {

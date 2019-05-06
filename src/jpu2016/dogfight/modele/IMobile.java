@@ -2,6 +2,7 @@ package jpu2016.dogfight.modele;
 
 import java.awt.Image;
 import java.awt.Point;
+import java.util.Collection;
 
 interface IMobile {
     public Direction getDirection();
